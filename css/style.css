@@ -425,108 +425,231 @@ h2{
 
 }
 
+/*CARDS SECTION 3*/
+
+.cards-section-3{
+     height: 400px;
+     margin-bottom: 50px;
+     display: flex;
+     justify-content: space-between;
+  
+}
+
+.card-section-3-body{
+     height: 35px;
+}
+.section-3 a { 
+     text-decoration: none;/*supprime le soulignement les liens de la section 3*/
+     color: black;
+}
+
+.card{
+     background-color: white;
+     border-radius: 22px;
+     box-shadow: 5px 10px 5px 5px #dcd2f9;
+}
+
+.card img{
+        object-fit: cover;
+        max-width:100%;
+        border-radius: 22px 22px 0 0 ;
+        height: 100px;
+} 
+
+.card-section-3-XL{
+     height: 100%;
+     
+}
+
+.cards-section-3 h3 {
+
+     font-size: 14px;
+     font-weight: bold;
+     color: black;
+     padding: 10px 0px 0px 15px;
+     margin: unset;
+}
+
+.card-section-3{
+    width: 23%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ 
+
+
+ .card-section-3-L{
+     height: 53%;
+   
+}
+
+
+
+.card-section-3-XS{
+     height: 37%;
+    
+}
+
+
+ .card-section-3-S{
+    height: 42%;
+    
+ }
+
+
+.card-section-3-M{
+    height: 48%;
+    
+
+}
+
+footer {
+     display: flex;
+     background-color: #F2F2F2;
+     
+}
+
+footer a{
+     text-decoration: none;
+     color: black;
+     padding: 5px;
+}
+
+.a_propos, .nos_hebergements, .assistance{
+     display: flex;
+     flex-direction: column;
+     padding-top: 20px;
+     padding-bottom: 5px;
+     padding-left: 35px;
+     padding-right: 145px;
+     
+}
+
+footer h4{
+     margin-bottom: 10px;
+}
+
+.L_XS{
+     display: flex;
+     flex-direction: column;
+}
 
 @media screen and (max-width: 992px ) /* responsive version tablettes*/
 {
-  .filtres{
-     flex-wrap: wrap;
-  }
+     .filtres{
+       flex-wrap: wrap;
+
+     }
    
-   
-    
 }
 
 
 @media screen and (max-width: 768px ) /* responsive version mobiles*/
 {
    
-    
+   
      .main{
           margin: unset;
      }
 
      .section-2{
           border-radius:unset;
+          height: auto;
      }
      
-     .card-section-2{
+     .card-section-1{
           width: 100%;
           max-width: 370px;
      }
 
-     .cards-section-2{
+     .card-section-2{
+          width: 100%;
+          max-width: 370px;
+          margin: 5px;
+     }
+
+     .cards-section-2, .cards-section-1{
           display: flex;
           flex-direction: column;
           align-items: center;
      }
+
      .intro{
           margin-left: 35px;
           margin-right: 35px;
      }
+
     .logonav {
          flex-direction: column;
          align-items: center;
          padding-left:unset;
      
-   }
+     }
 
-   .logonav nav{
+     .logonav nav{
         width: 100%;
-   }
+
+     }
+
    .logonav ul {
        padding: unset;
        justify-content: space-between;
-   }
 
-   .logonav nav li{
-         margin: unset;
-         text-align:center;
-         width:50%;
-         padding-bottom:10px;
-   }
-  .logonav nav li:hover { /* bordure survol de la nav*/
+     }
+
+    .logonav nav li{
+       margin: unset;
+       text-align:center;
+       width:50%;
+       padding-bottom:10px;
+
+     }
+
+    .logonav nav li:hover { /* bordure survol de la nav*/
       border-bottom: #0065fc 2px solid; 
       border-top: unset;
-   }
 
-.rechercher span{
+     }
 
-     display:none;
-}
+     .rechercher span{
+       display:none;
 
- .rechercher{
-    
-    border-radius: 15px;
-    width: 42px;
-    position:absolute;
-    left: 246px;
- }
+     }
 
-.rechercher i {
-
-     display: unset; 
-    
-}
-
-.hebergements-pop{
-     display:flex;
-     flex-direction: column-reverse;
-}
-
-.cards-section-1{
-     display:unset;
-}
+     .rechercher{
+       border-radius: 15px;
+       width: 42px;
+       position:absolute;
+       left: 246px;
        
-}
-/*  header a:hover
-{
-    text-decoration:  none;
-    
-}
+     }
 
-  header a:hover 
-  { 
-    text-decoration: underline  #0065fc 2px;
-  }
-    
-} */
+     .rechercher i {
+       display: unset; 
+
+     }
+
+     .hebergements-pop{
+       display:flex;
+       flex-direction: column-reverse;
+
+     }
+
+
+
+     .section-1{
+       background-color: unset;
+       border: unset;
+       height: auto;
+
+     }
+
+     footer{
+       display: flex;
+       flex-direction: column;
+
+     }
+}
