@@ -10,621 +10,578 @@
         <script src="https://kit.fontawesome.com/6a0390c8f4.js" crossorigin="anonymous"></script>
         <title>Booki</title>
     </head>
-<body>
-     <header> 
 
-     <div class="logonav">
-         <img src="images\Booki@3x.png" alt="Logo Booki" class="Logo">
-
-        
-         <nav>
-             
-              <ul>
-             
-                  <li id="ancre_hebergement"><a href="index.html">Hébergements</a></li>
-                  <li id="ancre_activites"><a href="index.html">Activités</a></li>
-            
-              </ul>
-         </nav>
-     </div>
-    </header>  
-
-    <main class="main">
-
-        <div class="intro">
-        <h1 class="titre">Trouvez votre hébergement pour des vacances de rêves</h1> 
-        <p>En plein centre ville ou en pleine nature</p>
-
-       
-         <form method="post" action="traitement.php" class="formulaire-recherche">
-            
-             <label for="location" ><i class="fas fa-map-marker-alt map"></i></label>
-             <input type="search" name="location" class="location" placeholder="Marseille,France" />
-             <button type="submit" class="rechercher">
-                <i class="fas fa-search"></i>
-                <span>Rechercher</span>
-            </button>
-    
-            
-         </form>
-
-          <form method="post" action="traitement.php" class="filtres" >
-
-            <legend>Filtres</legend>
-
-
-            <input type="checkbox" name="eco" value="Économique" id="eco" class="eco"/>
-            <label for="eco"><i class="fas fa-money-bill-wave"></i>Économique</label> 
-           
-            <input type="checkbox" name="familial" value="Familial" id="familial" class="familial" />
-            <label for="familial"> <i class="fas fa-child"></i>Familial</label> 
-
-            <input type="checkbox" name="romantique" value="Romantique" id="romantique" class="romantique" />
-            <label for="romantique"><i class="fas fa-heart"></i>Romantique</label> 
-            
-            <input type="checkbox" name="animaux" value="Animaux autorisés" id="animaux" class="animaux" />
-            <label for="animaux"> <i class="fas fa-dog"></i>Animaux autorisés</label> 
-            
-            
-         </form> 
-
-         <div class="infos">
-         <p><i class="fas fa-info"></i></p> <p class="info-quote"> Plus de 500 logements sont disponibles dans cette ville</p>
-        
-        </div>
-
-         </div>
-     <div class="hebergements-pop">
-
-         <section class="section-1">
-
-             <h2><a href="#ancre-hebergements">Hébergements à Marseille </a></h2>
-           
-
-             <div class="cards-section-1">
-<!--AUBERGE DE LA CANNEBIERE-->
-
-                         <div class="card-section-1">
-                <a href="auberge_cannebiere">
-                    <!-- Image à la une -->
-                  
-                    <div class="card-section-1-image"><img src="images/auberge_de_la_cannebiere.jpg" alt="Chambre de l'auberge la Cannebière" /></div>
-                    <!-- Fin de l'image à la une -->
-                  
-            
-                    <!-- Corps de la carte -->
-                    <div class="card-section-1-body">
-            
-                        
-            
-                        <!-- Titre de l'article -->
-                        <div class="card-section-1-title">
-                            <h3>Auberge la Cannebière</h3>
-                        </div>
-
-                        <!-- Prix -->
-                        <div class="card-section-1-price">
-                            <p>Nuit à partir de <span class="bold-price">25€</span></p>
-                        </div>
-
-                        <!-- note en étoiles class "gray-star" pour les étoiles grises-->
-                        <div class="card-section-1-reviews">
-                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
-                        </div>
-            
-                    </div>
-                    <!-- Fin du corp de notre carte -->
-                </a>
-            </div>  
-            
-            
-
-<!--HOTEL DU PORT-->
-
-           <div class="card-section-1">
-                <a href="hotel_port">
-                    <!-- Image à la une -->
-                  
-                    <div class="card-section-1-image"><img src="images\hotel_du_port.jpg" alt="Chambre de l'hôtel du port" /></div>
-                    <!-- Fin de l'image à la une -->
-                  
-            
-                    <!-- Corps de la carte -->
-                    <div class="card-section-1-body">
-            
-                        
-            
-                        <!-- Titre de l'article -->
-                        <div class="card-section-1-title">
-                            <h3>Hôtel du port</h3>
-                        </div>
-
-                        <!-- Prix -->
-                        <div class="card-section-1-price">
-                            <p>Nuit à partir de 52<span class="bold-price">€</span></p>
-                        </div>
-
-                        <!-- note en étoiles class "gray-star" pour les étoiles grises-->
-                        <div class="card-section-1-reviews">
-                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i></p>
-                        </div>
-            
-                    </div>
-                    <!-- Fin du corp de notre carte -->
-                </a>
-            </div>
-
- <!--HOTEL LES MOUETTES-->
-            <div class="card-section-1">
-                <a href="hotel_mouettes">
-                    <!-- Image à la une -->
-                  
-                    <div class="card-section-1-image"><img src="images/hotel_les_mouettes.jpg" alt="Chambre de l'Hôtel Les mouettes" /></div>
-                    <!-- Fin de l'image à la une -->
-                  
-            
-                    <!-- Corps de la carte -->
-                    <div class="card-section-1-body">
-            
-                        
-            
-                        <!-- Titre de l'article -->
-                        <div class="card-section-1-title">
-                            <h3>Hôtel Les mouettes</h3>
-                        </div>
-
-                        <!-- Prix -->
-                        <div class="card-section-1-price">
-                            <p>Nuit à partir de 76<span class="bold-price">€</span></p>
-                        </div>
-
-                        <!-- note en étoiles class "gray-star" pour les étoiles grises-->
-                        <div class="card-section-1-reviews">
-                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
-                        </div>
-            
-                   </div>
-                    <!-- Fin du corp de notre carte -->
-                </a>
-            </div>  
-
-<!--HOTEL DE LA MER-->
-
-            <div class="card-section-1">
-                <a href="hotel_de_la_mer">
-                    <!-- Image à la une -->
-                  
-                    <div class="card-section-1-image"><img src="images/hotel_de_la_mer.jpg" alt="Chambre de l'Hôtel de la mer" /></div>
-                    <!-- Fin de l'image à la une -->
-                  
-            
-                    <!-- Corps de la carte -->
-                    <div class="card-section-1-body">
-            
-                        
-            
-                        <!-- Titre de l'article -->
-                        <div class="card-section-1-title">
-                            <h3>Hôtel de la mer</h3>
-                        </div>
-
-                        <!-- Prix -->
-                        <div class="card-section-1-price">
-                            <p>Nuit à partir de 46<span class="bold-price">€</span></p>
-                        </div>
-
-                        <!-- note en étoiles class "gray-star" pour les étoiles grises-->
-                        <div class="card-section-1-reviews">
-                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i><i class="fas fa-star gray-star"></i></p>
-                        </div>
-            
-                    </div>
-                    <!-- Fin du corp de notre carte -->
-                </a>
-            </div>  
-
-<!--AUBERGE LE PANIER-->
-
-                <div class="card-section-1">
-                    <a href="auberge_le_panier">
-                        <!-- Image à la une -->
-                      
-                        <div class="card-section-1-image"><img src="images/auberge_le_panier.jpg" alt="Chambre de l'auberge Le Panier" /></div>
-                        <!-- Fin de l'image à la une -->
-                      
-                
-                        <!-- Corps de la carte -->
-                        <div class="card-section-1-body">
-                
-                            
-                
-                            <!-- Titre de l'article -->
-                            <div class="card-section-1-title">
-                                <h3>Auberge Le Panier</h3>
-                            </div>
-    
-                            <!-- Prix -->
-                            <div class="card-section-1-price">
-                                <p>Nuit à partir de <span class="bold-price">23€</span></p>
-                            </div>
-    
-                            <!-- note en étoiles class "gray-star" pour les étoiles grises-->
-                            <div class="card-section-1-reviews">
-                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
-                            </div>
-                
-                        </div>
-                        <!-- Fin du corp de notre carte -->
-                    </a>
-                </div>  
-
-<!--HOTEL CHEZ AMINA-->
-
-                <div class="card-section-1">
-                    <a href="hotel_chez_amina">
-                        <!-- Image à la une -->
-                      
-                        <div class="card-section-1-image"><img src="images/hotel_chez_amina.jpg" alt="Chambre de l'Hôtel chez Amina" /></div>
-                        <!-- Fin de l'image à la une -->
-                      
-                
-                        <!-- Corps de la carte -->
-                        <div class="card-section-1-body">
-                
-                            
-                
-                            <!-- Titre de l'article -->
-                            <div class="card-section-1-title">
-                                <h3>Hôtel chez Amina</h3>
-                            </div>
-    
-                            <!-- Prix -->
-                            <div class="card-section-1-price">
-                                <p>Nuit à partir de 96<span class="bold-price">€</span></p>
-                            </div>
-    
-                            <!-- note en étoiles class "gray-star" pour les étoiles grises-->
-                            <div class="card-section-1-reviews">
-                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
-                            </div>
-                
-                        </div>
-                        <!-- Fin du corp de notre carte -->
-                    </a>
-                </div>  
+    <body>
+        <header> 
+            <div class="logonav">
+                <img src="images\Booki@3x.png" alt="Logo Booki" class="Logo">    
+                <nav>
+                    
+                    <ul>
+                    
+                        <li><a href="index.html" id="ancre-hebergements">Hébergements</a></li>
+                        <li><a href="index.html" id="ancre-activites">Activités</a></li>
+                    
+                    </ul>
+                </nav>
              </div>
+        </header>  
 
-         <div class="show_more">
+        <main class="main">
 
-         <a href="Afficher_plus" class="afficher_plus">Afficher plus</a>
-        
-        </div>
-</section>
-
-<section class="section-2">
-
-        <div class="populaires"><h2>Les plus populaires</h2> <p><i class="fas fa-chart-line"></i></p> </div>
-         
-     <div class="cards-section-2"> 
-
-        <!--HOTEL SOLEIL DU MATIN-->
-
-            <div class="card-section-2">
-
-            <a href="hotel_soleil_du_matin">
-                <!-- Image à la une -->
-              
-                <div class="card-section-2-image"><img src="images\hotel_soleil_du_matin.jpg"alt="Chambre de l'Hôtel le soleil du matin" /></div>
-                <!-- Fin de l'image à la une -->
-              
-        
-                <!-- Corps de la carte -->
-                <div class="card-section-2-body">
-        
-                    
-        
-                    <!-- Titre de l'article -->
-                    <div class="card-section-2-title">
-                        <h3>Hôtel Le soleil du matin</h3>
-                    </div>
-
-                    <!-- Prix -->
-                    <div class="card-section-2-price">
-                        <p>Nuit à partir de 128<span class="bold-price">€</p>
-                    </div>
-
-                    <!-- note en étoiles -->
-                    <div class="card-section-2-reviews">
-                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                    </div>
-               
-                </div>
-                <!-- Fin du corp de notre carte -->
-                </a>
-
-         </div>
-
-<!--CHAMBRES D'HOTES AU COEUR DE L'EAU-->
-
-<div class="card-section-2">
-
-    <a href="chambres_d_hotes_au_coeur_de_l_eau">
-        <!-- Image à la une -->
-      
-        <div class="card-section-2-image"><img src="images\chambres_hotes_.jpg"alt="Chambre d'hôtes Au coeur de l'eau" /></div>
-        <!-- Fin de l'image à la une -->
-      
-
-        <!-- Corps de la carte -->
-        <div class="card-section-2-body">
+            <div class="intro">
+                <h1 class="titre">Trouvez votre hébergement pour des vacances de rêves</h1> 
+                <p>En plein centre ville ou en pleine nature</p>
 
             
-
-            <!-- Titre de l'article -->
-            <div class="card-section-2-title">
-                <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-            </div>
-
-            <!-- Prix -->
-            <div class="card-section-2-price">
-                <p>Nuit à partir de 71<span class="bold-price">€</p>
-            </div>
-
-            <!-- note en étoiles -->
-            <div class="card-section-2-reviews">
-                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
-            </div>
-       
-        </div>
-        <!-- Fin du corp de notre carte -->
-        </a>
-
- </div>
-  
-        
-<!--HOTEL TOUT BLEU ET BLANC-->
-
-<div class="card-section-2">
-
-    <a href="hotel_stout_bleu_et_blanc">
-        <!-- Image à la une -->
-      
-        <div class="card-section-2-image"><img src="images\hotel_tout_bleu_et_blanc.jpg"alt="Chambre de l'Hôtel Tout bleu et blanc" /></div>
-        <!-- Fin de l'image à la une -->
-      
-
-        <!-- Corps de la carte -->
-        <div class="card-section-2-body">
-
-            
-
-            <!-- Titre de l'article -->
-            <div class="card-section-2-title">
-                <h3>Hôtel Tout bleu et blanc</h3>
-            </div>
-
-            <!-- Prix -->
-            <div class="card-section-2-price">
-                <p>Nuit à partir de 68<span class="bold-price">€</p>
-            </div>
-
-            <!-- note en étoiles -->
-            <div class="card-section-2-reviews">
-                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
-            </div>
-       
-        </div>
-        <!-- Fin du corp de notre carte -->
-        </a>
-
- </div>
-         
- </div>  
-
-                </section>
-
-     </div>   
-
- <section class="section-3">
-
-    <h2><a href="#ancre-activites">Activités à Marseille</a></h2>
-     <div class="cards-section-3">
-         <div class="card-section-3">
-            <div class="card-section-3-XL card"> 
-            <a href="#">
-                <!-- Image à la une -->
-              
-                <div class="card-section-3-image" ><img src="images\vieux_port.jpg"alt="Photo du vieux port de Marseille" /></div>
-                <!-- Fin de l'image à la une -->
-              
-        
-                <!-- Corps de la carte -->
-                <div class="card-section-3-body">
-        
+                <form method="post" action="traitement.php" class="formulaire-recherche">
                     
-        
-                    <!-- Titre de l'article -->
-                    <div class="card-section-3-title">
-                        <h3>Vieux Port</h3>
-                    </div>
+                    <label for="location" ><i class="fas fa-map-marker-alt map"></i></label>
+                    <input type="search" name="location" class="location" placeholder="Marseille,France" />
+                    <button type="submit" class="rechercher">
+                    <i class="fas fa-search"></i>
+                    <span>Rechercher</span>
+                    </button>
+            
+                    
+                </form>
 
-                </div>
-                <!-- Fin du corp de notre carte -->
-                </a> 
-            </div>  
-            </div>    
-        <!-- </div> -->
-<!--fort de pomegues-->
+                <form method="post" action="traitement.php" class="filtres" >
 
-    <div class="card-section-3">
-        <div class="card-section-3-L card">
-       <a href="#">
-           <!-- Image à la une -->
-         
-           <div class="card-section-3-image"><img src="images\fort_de_pomegues.jpg"alt="Photo du Fort de Pomègues" /></div>
-           <!-- Fin de l'image à la une -->
-         
-   
-           <!-- Corps de la carte -->
-           <div class="card-section-3-body">
-   
-               
-   
-               <!-- Titre de l'article -->
-               <div class="card-section-3-title">
-                   <h3>Fort de Pomègues</h3>
-               </div>
+                    <legend>Filtres</legend>
 
-           </div>
-           <!-- Fin du corp de notre carte -->
-           </a> 
-        </div>
+                    <div class="filters-bubble">
 
+                        <input type="checkbox" name="eco" value="Économique" id="eco" class="eco"/>
+                        <label for="eco"><i class="fas fa-money-bill-wave"></i>Économique</label> 
+                    
+                        <input type="checkbox" name="familial" value="Familial" id="familial" class="familial" />
+                        <label for="familial"> <i class="fas fa-child"></i>Familial</label> 
 
-<!--iles du frioul-->
-
-
-    
-<div class="card-section-3-XS card">
-       <a href="#">
-           <!-- Image à la une -->
-         
-           <div class="card-section-3-image"><img src="images\iles_du_frioul.jpg"alt="Photo de la vue des Îles du Frioul" /></div>
-           <!-- Fin de l'image à la une -->
-         
-   
-           <!-- Corps de la carte -->
-           <div class="card-section-3-body">
-   
-               
-   
-               <!-- Titre de l'article -->
-               <div class="card-section-3-title">
-                   <h3>Îles du Frioul</h3>
-               </div>
-
-           </div>
-           <!-- Fin du corp de notre carte -->
-           </a> 
-        </div>   
-       </div>    
-
-
-
-<!--parc national des calanques-->       
-       <div class="card-section-3">
-             
-        <div class="card-section-3-XL card">
-        <a href="#">
-            <!-- Image à la une -->
-          
-            <div class="card-section-3-image" ><img src="images\parc_national_des_calanques.jpg"alt="Photo du Parc National des Calanques" /></div>
-            <!-- Fin de l'image à la une -->
-          
-    
-            <!-- Corps de la carte -->
-            <div class="card-section-3-body">
-    
+                        <input type="checkbox" name="romantique" value="Romantique" id="romantique" class="romantique" />
+                        <label for="romantique"><i class="fas fa-heart"></i>Romantique</label> 
+                        
+                        <input type="checkbox" name="animaux" value="Animaux autorisés" id="animaux" class="animaux" />
+                        <label for="animaux"> <i class="fas fa-dog"></i>Animaux autorisés</label> 
+                    </div>    
                 
-    
-                <!-- Titre de l'article -->
-                <div class="card-section-3-title">
-                    <h3>Parc National des Calanques</h3>
+                </form> 
+
+                <div class="infos">
+                    <p><i class="fas fa-info"></i></p> <p class="info-quote"> Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
 
             </div>
-            <!-- Fin du corp de notre carte -->
-            </a> 
-        </div>
-        </div>    
 
-<!--notre dame de la garde -->
-<div class="card-section-3">
-    <div class="card-section-3-S card">
-    <a href="#">
-        <!-- Image à la une -->
-      
-        <div class="card-section-3-image" ><img src="images\notre_dame_de_la_garde.jpg"alt="Photo de Notre-Dame-de-la-Garde"/></div>
-        <!-- Fin de l'image à la une -->
-      
+        <div class="hebergements-pop">
 
-        <!-- Corps de la carte -->
-        <div class="card-section-3-body">
+            <section class="section-1">
 
+                <h2><a href="#ancre-hebergements">Hébergements à Marseille</a></h2>
             
 
-            <!-- Titre de l'article -->
-            <div class="card-section-3-title">
-                <h3>Notre Dame-de-la-Garde</h3>
-            </div>
+                <div class="cards-section-1"><!--ensemble des cartes de la section 1-->
+   
+                    <!--AUBERGE DE LA CANNEBIERE-->
+                        <div class="card-section-1">
+                        
+                            <a href="#">
+                                <!-- Image à la une -->
+                            
+                                <div class="card-section-1-image"><img src="images/auberge_de_la_cannebiere.jpg" alt="Chambre de l'auberge la Cannebière" /></div>
+                                <!-- Fin de l'image à la une -->
+                            
+                                <!-- Corps de la carte -->
+                                <div class="card-section-1-body">
+                        
+                                    <!-- Titre de l'article -->
+                                    <div class="card-section-1-title">
+                                        <h3>Auberge la Cannebière</h3>
+                                    </div>
 
-        </div>
-        <!-- Fin du corp de notre carte -->
-        </a> 
-    </div> 
+                                    <!-- Prix -->
+                                    <div class="card-section-1-price">
+                                        <p>Nuit à partir de <span class="bold-price">25€</span></p>
+                                    </div>
 
- <!--parc longchamp -->
+                                    <!-- note en étoiles class "gray-star" pour les étoiles grises-->
+                                    <div class="card-section-1-reviews">
+                                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
+                                    </div>
+                    
+                                </div>
+                                <!-- Fin du corp de notre carte -->
+                            </a>
+                        </div>  
 
- <div class="card-section-3-M card">
-    <a href="#">
-        <!-- Image à la une -->
-      
-        <div class="card-section-3-image"><img src="images\parc_longchamp.jpg"alt="Photo du Parc Longchamp"/></div>
-        <!-- Fin de l'image à la une -->
-      
+                    <!--HOTEL DU PORT-->
 
-        <!-- Corps de la carte -->
-        <div class="card-section-3-body">
+                        <div class="card-section-1">
+                            <a href="#">
+                                <!-- Image à la une -->
+                            
+                                <div class="card-section-1-image"><img src="images\hotel_du_port.jpg" alt="Chambre de l'hôtel du port" /></div>
+                                <!-- Fin de l'image à la une -->
+                            
+                                <!-- Corps de la carte -->
+                                <div class="card-section-1-body">
+                        
+                                    <!-- Titre de l'article -->
+                                    <div class="card-section-1-title">
+                                        <h3>Hôtel du port</h3>
+                                    </div>
 
+                                    <!-- Prix -->
+                                    <div class="card-section-1-price">
+                                        <p>Nuit à partir de 52<span class="bold-price">€</span></p>
+                                    </div>
+
+                                    <!-- note en étoiles class "gray-star" pour les étoiles grises-->
+                                    <div class="card-section-1-reviews">
+                                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i></p>
+                                    </div>
+                        
+                                </div>
+                                <!-- Fin du corp de notre carte -->
+                            </a>
+                        </div>
+
+                    <!--HOTEL LES MOUETTES-->
+                        <div class="card-section-1">
+                            <a href="#">
+                                <!-- Image à la une -->
+                            
+                                <div class="card-section-1-image"><img src="images/hotel_les_mouettes.jpg" alt="Chambre de l'Hôtel Les mouettes" /></div>
+                                <!-- Fin de l'image à la une -->
+                            
+                                <!-- Corps de la carte -->
+                                <div class="card-section-1-body">
+                        
+                                    <!-- Titre de l'article -->
+                                    <div class="card-section-1-title">
+                                        <h3>Hôtel Les mouettes</h3>
+                                    </div>
+
+                                    <!-- Prix -->
+                                    <div class="card-section-1-price">
+                                        <p>Nuit à partir de 76<span class="bold-price">€</span></p>
+                                    </div>
+
+                                    <!-- note en étoiles class "gray-star" pour les étoiles grises-->
+                                    <div class="card-section-1-reviews">
+                                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
+                                    </div>
+                        
+                                </div>
+                                <!-- Fin du corp de notre carte -->
+                            </a>
+                        </div>  
+
+                    <!--HOTEL DE LA MER-->
+
+                        <div class="card-section-1">
+                            <a href="#">
+                                <!-- Image à la une -->
+                            
+                                <div class="card-section-1-image"><img src="images/hotel_de_la_mer.jpg" alt="Chambre de l'Hôtel de la mer" /></div>
+                                <!-- Fin de l'image à la une -->
+                            
+                                <!-- Corps de la carte -->
+                                <div class="card-section-1-body">
+                        
+                                    <!-- Titre de l'article -->
+                                    <div class="card-section-1-title">
+                                        <h3>Hôtel de la mer</h3>
+                                    </div>
+
+                                    <!-- Prix -->
+                                    <div class="card-section-1-price">
+                                        <p>Nuit à partir de 46<span class="bold-price">€</span></p>
+                                    </div>
+
+                                    <!-- note en étoiles class "gray-star" pour les étoiles grises-->
+                                    <div class="card-section-1-reviews">
+                                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i><i class="fas fa-star gray-star"></i></p>
+                                    </div>
+                        
+                                </div>
+                                <!-- Fin du corp de notre carte -->
+                            </a>
+                        </div>  
+
+                    <!--AUBERGE LE PANIER-->
+
+                        <div class="card-section-1">
+                            <a href="#">
+                                <!-- Image à la une -->
+                            
+                                <div class="card-section-1-image"><img src="images/auberge_le_panier.jpg" alt="Chambre de l'auberge Le Panier" /></div>
+                                <!-- Fin de l'image à la une -->
+                            
+                                <!-- Corps de la carte -->
+                                <div class="card-section-1-body">
+                        
+                                    <!-- Titre de l'article -->
+                                    <div class="card-section-1-title">
+                                        <h3>Auberge Le Panier</h3>
+                                    </div>
             
+                                    <!-- Prix -->
+                                    <div class="card-section-1-price">
+                                        <p>Nuit à partir de <span class="bold-price">23€</span></p>
+                                    </div>
+            
+                                    <!-- note en étoiles class "gray-star" pour les étoiles grises-->
+                                    <div class="card-section-1-reviews">
+                                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
+                                    </div>
+                        
+                                </div>
+                                <!-- Fin du corp de notre carte -->
+                            </a>
+                        </div>  
 
-            <!-- Titre de l'article -->
-            <div class="card-section-3-title">
-                <h3>Parc Longchamp</h3>
+                    <!--HOTEL CHEZ AMINA-->
+
+                        <div class="card-section-1">
+                            <a href="#">
+                                <!-- Image à la une -->
+                            
+                                <div class="card-section-1-image"><img src="images/hotel_chez_amina.jpg" alt="Chambre de l'Hôtel chez Amina" /></div>
+                                <!-- Fin de l'image à la une -->
+                            
+                                <!-- Corps de la carte -->
+                                <div class="card-section-1-body">
+                        
+                                    <!-- Titre de l'article -->
+                                    <div class="card-section-1-title">
+                                        <h3>Hôtel chez Amina</h3>
+                                    </div>
+            
+                                    <!-- Prix -->
+                                    <div class="card-section-1-price">
+                                        <p>Nuit à partir de 96<span class="bold-price">€</span></p>
+                                    </div>
+            
+                                    <!-- note en étoiles class "gray-star" pour les étoiles grises-->
+                                    <div class="card-section-1-reviews">
+                                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
+                                    </div>
+                        
+                                </div>
+                                <!-- Fin du corp de notre carte -->
+                            </a>
+                        </div>  
+                </div>
+
+                 <div class="show_more">
+                     <a href="Afficher_plus" class="afficher_plus">Afficher plus</a>
+                </div>
+
+            </section>
+
+            <section class="section-2">
+
+                <div class="populaires"><h2>Les plus populaires</h2> <p><i class="fas fa-chart-line"></i></p> </div>
+            
+                <div class="cards-section-2"> 
+
+                    <!--HOTEL SOLEIL DU MATIN-->
+
+                        <div class="card-section-2">
+
+                            <a href="#">
+                                <!-- Image à la une -->
+                            
+                                <div class="card-section-2-image"><img src="images\hotel_soleil_du_matin.jpg"alt="Chambre de l'Hôtel le soleil du matin" /></div>
+                                <!-- Fin de l'image à la une -->
+                            
+                                <!-- Corps de la carte -->
+                                <div class="card-section-2-body">
+                        
+                                    <!-- Titre de l'article -->
+                                    <div class="card-section-2-title">
+                                        <h3>Hôtel Le soleil du matin</h3>
+                                    </div>
+
+                                    <!-- Prix -->
+                                    <div class="card-section-2-price">
+                                        <p>Nuit à partir de 128<span class="bold-price">€</p>
+                                    </div>
+
+                                    <!-- note en étoiles -->
+                                    <div class="card-section-2-reviews">
+                                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                    </div>
+                            
+                                </div>
+                                <!-- Fin du corp de notre carte -->
+                            </a>
+                        </div>
+
+                    <!--CHAMBRES D'HOTES AU COEUR DE L'EAU-->
+
+                        <div class="card-section-2">
+
+                            <a href="#">
+                                <!-- Image à la une -->
+                            
+                                <div class="card-section-2-image"><img src="images\chambres_hotes_.jpg"alt="Chambre d'hôtes Au coeur de l'eau" /></div>
+                                <!-- Fin de l'image à la une -->                           
+
+                                <!-- Corps de la carte -->
+                                <div class="card-section-2-body">
+
+                                    <!-- Titre de l'article -->
+                                    <div class="card-section-2-title">
+                                        <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                                    </div>
+
+                                    <!-- Prix -->
+                                    <div class="card-section-2-price">
+                                        <p>Nuit à partir de 71<span class="bold-price">€</p>
+                                    </div>
+
+                                    <!-- note en étoiles -->
+                                    <div class="card-section-2-reviews">
+                                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
+                                    </div>
+                            
+                                </div>
+                                <!-- Fin du corp de notre carte -->
+                            </a>
+
+                        </div>
+                        
+            
+                    <!--HOTEL TOUT BLEU ET BLANC-->
+
+                        <div class="card-section-2">
+
+                            <a href="#">
+                                <!-- Image à la une -->
+                            
+                                <div class="card-section-2-image"><img src="images\hotel_tout_bleu_et_blanc.jpg"alt="Chambre de l'Hôtel Tout bleu et blanc" /></div>
+                                <!-- Fin de l'image à la une -->
+                            
+                                <!-- Corps de la carte -->
+                                <div class="card-section-2-body">                                  
+
+                                    <!-- Titre de l'article -->
+                                    <div class="card-section-2-title">
+                                        <h3>Hôtel Tout bleu et blanc</h3>
+                                    </div>
+
+                                    <!-- Prix -->
+                                    <div class="card-section-2-price">
+                                        <p>Nuit à partir de 68<span class="bold-price">€</p>
+                                    </div>
+
+                                    <!-- note en étoiles -->
+                                    <div class="card-section-2-reviews">
+                                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray-star"></i></p>
+                                    </div>
+                            
+                                </div>
+                                <!-- Fin du corp de notre carte -->
+                            </a>
+
+                        </div>
+            
+                 </div>  
+
+            </section>
+
+        </div>   
+
+            <section class="section-3">
+
+                <h2><a href="#ancre-activites">Activités à Marseille</a></h2>
+
+                <div class="cards-section-3">
+                    <!--VIEUX PORT-->
+                        <div class="card-section-3">
+
+                            <div class="card-section-3-XL card"> 
+                                <a href="#">
+                                    <!-- Image à la une -->
+                                
+                                    <div class="card-section-3-image" ><img src="images\vieux_port.jpg"alt="Photo du vieux port de Marseille" /></div>
+                                    <!-- Fin de l'image à la une -->
+                                                    
+                                    <!-- Corps de la carte -->
+                                    <div class="card-section-3-body">        
+                        
+                                        <!-- Titre de l'article -->
+                                        <div class="card-section-3-title">
+                                            <h3>Vieux Port</h3>
+                                        </div>
+
+                                    </div>
+                                    <!-- Fin du corp de notre carte -->
+                                </a> 
+                            </div>  
+                        </div>    
+                   
+                    <!--FORT DE POMEGUES-->
+                        <div class="card-section-3">
+
+                            <div class="card-section-3-L card">
+                                <a href="#">
+                                    <!-- Image à la une -->
+                                    
+                                    <div class="card-section-3-image"><img src="images\fort_de_pomegues.jpg"alt="Photo du Fort de Pomègues" /></div>
+                                    <!-- Fin de l'image à la une -->
+                                                              
+                                    <!-- Corps de la carte -->
+                                    <div class="card-section-3-body">                                   
+                            
+                                        <!-- Titre de l'article -->
+                                        <div class="card-section-3-title">
+                                            <h3>Fort de Pomègues</h3>
+                                        </div>
+
+                                    </div>
+                                    <!-- Fin du corp de notre carte -->
+                                </a> 
+                            </div>
+                        
+                    <!--ILES DU FRIOUL-->
+                        
+                            <div class="card-section-3-XS card">
+                                <a href="#">
+                                    <!-- Image à la une -->
+                                    
+                                    <div class="card-section-3-image"><img src="images\iles_du_frioul.jpg"alt="Photo de la vue des Îles du Frioul" /></div>
+                                    <!-- Fin de l'image à la une -->
+                                             
+                                    <!-- Corps de la carte -->
+                                    <div class="card-section-3-body">
+                                                      
+                                        <!-- Titre de l'article -->
+                                        <div class="card-section-3-title">
+                                            <h3>Îles du Frioul</h3>
+                                        </div>
+
+                                    </div>
+                                    <!-- Fin du corp de notre carte -->
+                                </a> 
+                            </div>  
+
+                        </div>    
+
+                    <!--PARC NATIONAL DES CALANQUES-->       
+                        <div class="card-section-3">
+                                
+                            <div class="card-section-3-XL card">
+                                <a href="#">
+                                    <!-- Image à la une -->
+                                
+                                    <div class="card-section-3-image" ><img src="images\parc_national_des_calanques.jpg"alt="Photo du Parc National des Calanques" /></div>
+                                    <!-- Fin de l'image à la une -->
+                                                           
+                                    <!-- Corps de la carte -->
+                                    <div class="card-section-3-body">
+                                                     
+                                        <!-- Titre de l'article -->
+                                        <div class="card-section-3-title">
+                                            <h3>Parc National des Calanques</h3>
+                                        </div>
+
+                                    </div>
+                                    <!-- Fin du corp de notre carte -->
+                                </a> 
+                            </div>
+                            
+                        </div>    
+
+                    <!--NOTRE DAME DE LA GARDE-->
+                        <div class="card-section-3">
+
+                            <div class="card-section-3-S card">
+                                <a href="#">
+                                    <!-- Image à la une -->
+                                
+                                    <div class="card-section-3-image" ><img src="images\notre_dame_de_la_garde.jpg"alt="Photo de Notre-Dame-de-la-Garde"/></div>
+                                    <!-- Fin de l'image à la une -->
+                                
+                                    <!-- Corps de la carte -->
+                                    <div class="card-section-3-body">
+
+                                        <!-- Titre de l'article -->
+                                        <div class="card-section-3-title">
+                                            <h3>Notre Dame-de-la-Garde</h3>
+                                        </div>
+
+                                    </div>
+                                    <!-- Fin du corp de notre carte -->
+                                </a> 
+                            </div> 
+                           
+
+                    <!--PARC LONGCHAMP-->
+                           
+
+                            <div class="card-section-3-M card">
+                                <a href="#">
+                                    <!-- Image à la une -->
+                                
+                                    <div class="card-section-3-image"><img src="images\parc_longchamp.jpg"alt="Photo du Parc Longchamp"/></div>
+                                    <!-- Fin de l'image à la une -->
+                                
+
+                                    <!-- Corps de la carte -->
+                                    <div class="card-section-3-body">
+
+                                        
+
+                                        <!-- Titre de l'article -->
+                                        <div class="card-section-3-title">
+                                            <h3>Parc Longchamp</h3>
+                                        </div>
+
+                                    </div>
+                                    <!-- Fin du corp de notre carte -->
+                                </a> 
+                            </div>
+
+                        </div>       
+            
+                </div>
+            </section>
+        </main>
+
+         <footer>
+
+            <div class="a_propos">
+                <h4>À Propos</h4>
+                <a href="#">Fonctionnement du site</a>
+                <a href="#">Conditions générales de vente</a>
+                <a href="#">Données et confidentialité</a>
+
             </div>
 
-        </div>
-        <!-- Fin du corp de notre carte -->
-        </a> 
-    </div>
-    </div>       
-  
-       </div>
-     </section>
-</main>
+            <div class="nos_hebergements">
+                <h4>Nos Hébergements</h4>
+                <a href="#">Charte qualité</a>
+                <a href="#">Soumettre votre hôtel</a>
 
- <footer>
+            </div>
 
-    <div class="a_propos">
-        <h4>À Propos</h4>
-        <a href="#">Fonctionnement du site</a>
-        <a href="#">Conditions générales de vente</a>
-        <a href="#">Données et confidentialité</a>
+            <div class="assistance">
+                <h4>Assistance</h4>
+                <a href="#">Centre d'aide</a>
+                <a href="#">Nous contacter</a>
 
-     </div>
+            </div>
 
-     <div class="nos_hebergements">
-        <h4>Nos Hébergements</h4>
-        <a href="#">Charte qualité</a>
-        <a href="#">Soumettre votre hôtel</a>
-
-     </div>
-
-     <div class="assistance">
-        <h4>Assistance</h4>
-        <a href="#">Centre d'aide</a>
-        <a href="#">Nous contacter</a>
-
-     </div>
-
-
- </footer>
+         </footer>
 
 
 
 
       
    
-</body>
+    </body>
 </html>
 
