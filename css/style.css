@@ -9,6 +9,7 @@ body {
      font-family: 'Raleway', sans-serif;
      margin: auto !important;
      max-width: 1500px;
+     min-width: 295px;
 }
 
 .main{
@@ -112,9 +113,8 @@ body {
      font-weight: bold;
 }
 
-.filtres legend{ /* le mot "filtres" à coté des filtres*/
-     padding-right: 40px;
-     padding-top: 15px;
+.filtres p{ /* le mot "filtres" à coté des filtres*/
+     padding-right: 40px; 
 }
 
 .filters-bubble{  /*concerne les filtres*/
@@ -645,7 +645,7 @@ footer a{
           flex-wrap: wrap;
      }
 
-     .filtres legend {
+     .filtres p {
           padding-bottom: 25px;
      }
 
